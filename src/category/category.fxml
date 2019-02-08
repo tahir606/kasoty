@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="333.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="category.CategoryController">
+    <children>
+        <VBox layoutX="250.0" layoutY="100.0" prefHeight="200.0" prefWidth="131.0" AnchorPane.leftAnchor="100.0">
+            <children>
+                <JFXButton prefHeight="37.0" prefWidth="150.0" text="Physics" />
+                <JFXButton prefHeight="37.0" prefWidth="150.0" text="Chemistry" />
+                <JFXButton prefHeight="37.0" prefWidth="150.0" text="Maths" />
+                <JFXButton prefHeight="37.0" prefWidth="150.0" text="Biology" />
+                <JFXButton prefHeight="37.0" prefWidth="150.0" text="General Knowledge" />
+            </children>
+        </VBox>
+      <Label fx:id="label_tName" layoutX="255.0" layoutY="42.0" text="Team Name" AnchorPane.leftAnchor="100.0">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

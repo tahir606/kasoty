@@ -10,10 +10,7 @@ public class Team {
 
     @Override
     public String toString() {
-        return "Team{" +
-                "no=" + no +
-                ", name='" + name + '\'' +
-                '}';
+        return no + "-" + name;
     }
 
     public Team(int no, String name) {
