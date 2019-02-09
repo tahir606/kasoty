@@ -48,6 +48,7 @@ public class ScoreboardController implements Initializable {
             teamBtn.setOnAction(event -> {
                 fileHelper.deleteCurrentTeamDets();
                 fileHelper.writeCurrentTeamDets(team);
+
                 Stage stage = (Stage) teamBtn.getScene().getWindow();
                 stage.close();
     

@@ -10,17 +10,17 @@
     <children>
         <VBox layoutX="250.0" layoutY="100.0" prefHeight="200.0" prefWidth="131.0" AnchorPane.leftAnchor="100.0">
             <children>
-                <JFXButton prefHeight="37.0" prefWidth="150.0" text="Physics" />
-                <JFXButton prefHeight="37.0" prefWidth="150.0" text="Chemistry" />
-                <JFXButton prefHeight="37.0" prefWidth="150.0" text="Maths" />
-                <JFXButton prefHeight="37.0" prefWidth="150.0" text="Biology" />
-                <JFXButton prefHeight="37.0" prefWidth="150.0" text="General Knowledge" />
+                <JFXButton fx:id="btn_physics" prefHeight="37.0" prefWidth="150.0" text="Physics" />
+                <JFXButton fx:id="btn_chemistry" prefHeight="37.0" prefWidth="150.0" text="Chemistry" />
+                <JFXButton fx:id="btn_maths" prefHeight="37.0" prefWidth="150.0" text="Maths" />
+                <JFXButton fx:id="btn_bio" prefHeight="37.0" prefWidth="150.0" text="Biology" />
+                <JFXButton fx:id="btn_genKnowledge" prefHeight="37.0" prefWidth="150.0" text="General Knowledge" />
             </children>
         </VBox>
-      <Label fx:id="label_tName" layoutX="255.0" layoutY="42.0" text="Team Name" AnchorPane.leftAnchor="100.0">
-         <font>
-            <Font name="Calibri Bold" size="24.0" />
-         </font>
-      </Label>
+        <Label fx:id="label_tName" layoutX="106.0" layoutY="42.0" text="Team Name" AnchorPane.leftAnchor="106.0">
+            <font>
+                <Font name="Calibri Bold" size="24.0" />
+            </font>
+        </Label>
     </children>
 </AnchorPane>
