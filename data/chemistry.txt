@@ -1,0 +1,48 @@
+chemistry^Mass spectrometer is used to determine mass number of isotopes and^Relative abundance of isotopes^Percentage of a particular isotope^Occurs in nature^Naturally found on planet;
+chemistry^Estimation of amounts of different components in a sample is^Quantitative analysis^Branch of chemistry that deals with the determination of the amount^Percentage of one or more constituents of a sample^Estimation refers to the process by which one makes inferences about a population based on information;
+chemistry^Animal Charcoal absorbs the coloured^Impurities^Chemical Substance inside a confined amount of liquid^Differ from the chemical composition of the material or compound^They are Either naturally occurring or added during synthesis of a chemical or commercial product;
+chemistry^Hydrogen Bonding is maximum in^HF^It is colorless gas^It is widely used in the petrochemical industry as a component of superacids^It is used in the production of aluminum and chlorofluorocarbons, and in the glass etching and chemical industries;
+chemistry^Order of a reaction depends upon^Power of concentration of reactions^It increases the rate of reaction^Its increase may have little noticeable effect of the rate^Its increase the rate of reaction;
+chemistry^Why does lithium carbonate decompose on heating^It is not stable^It is related to its properties^Molecular characteristics of a chemical or compound^Realted to Stability;
+chemistry^Why is heat of the earth maintained^Due to carbon dioxide and water vapours^It is colourless^A low concentration the gas is odorless^At sufficiently-high concentrations, it has a sharp, acidic odor at standard temperature;
+chemistry^Effective collision is responsible for^Formation of product^Combination of growth rate and cell concentration^Activated complex^Rates of a given chemical reaction;
+chemistry^The value of activation energy is primarily determined by^Temperature^It increases rate of reaction^Speeds up rate of reaction^Accelerates the reaction;
+chemistry^The energy of activation of forward reaction is less than thatnof backward reaction in^Exothermic reaction^It may occur spontaneously^Denoted by negative heat flow^They produce heat;
+chemistry^Energy Required to form the transition state is called^Activation energy^It is required to activate atoms^The energy which chemical reactions need to be activated^Speeds up the motion of molecules;
+chemistry^Energy of activation for backward reaction is less than forward reaction for which reaction^Endothermic reaction^In this reaction product requires less energy to return back to the reactant^Cannot occur spontaneously^They are characterized by positive heat flow;
+chemistry^Polyster resins are specially used in^Clothing^Collective term for items worn on the body^It is restricted to human beings^You are wearing them right now xD;
+chemistry^The non-protein part of enzyme is called^Co-enzyme^They are required by certain enzymes^They are used to carry out catalysis^Organic Molecules;
+chemistry^What is the final product of reaction n-heptane^Toluene^Colorless^Flammable^Non-Corrosive;
+chemistry^SO2 is harmful to as it act as^Lung Irritant^They are two in our body^They are affected from smoking^They are very high and can resist distension;
+chemistry^What we call region of earth capable of supporting life on earth^Consists  number of layers^Layers diifer in properties such as compostion^Temprature and pressure;
+chemistry^Ecosyestem is smaller unit of^Biosphere^Part of earth where all organisims live^Global ecological system^Made up of parts of earth where life exists;
+chemistry^In benzene sulphonic acid is attached with benzene ring through^Sulphur^In nature it occurs as pure element^It is infamous For its smell^Frequently compare to rotten eggs;
+chemistry^Acetophenone is a^Ketone^It has the carbonyl group with two hydrocarbon groups attached^They don’t have a hydrogen atom attached to the carbonyl group^It is a functional group;
+chemistry^Amongst the following, polycyclic compound is^Styrene^Colourless^Toxic liquid^Strong aromatic odor;
+chemistry^Hydrogenation of benzene in the presence of nickel or platinum produces^cyclohexane^Clear colorless liquid^Petroleum Like Odor^Used to make nylon;
+chemistry^The Friedal craft reaction will be slowest for^Nitro bezene^It is water-Insoluble^Pale Yellow Oil^With an almond like odor;
+chemistry^Magnesium metal does not burn in the vessel containing^Ne^Atomic Number 10^It is Colorless odorless inert mono atomic gas^It is a noble gas ( Group 8 );
+chemistry^In diaphragm cell , hydrogen is discharged by the reduced of^Water^Its attraction to polar molecules^High-specific heat^High polarity;
+chemistry^Which Of the following way is used for classification of chromatography^Phase^Absorption chromatography^Partion Chromatography^It is a region of space ( a themodynamic system );
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
