@@ -14,6 +14,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
+import jcode.FileHelper;
 import jcode.MySqlCon;
 import objects.Team;
 
@@ -31,19 +32,21 @@ public class Controller implements Initializable {
     private JFXButton btn_kasoty1, btn_kasoty2;
 
     private MySqlCon sql;
+    private FileHelper fileHelper;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+        fileHelper = new FileHelper();
         sql = new MySqlCon();
 
         btn_kasoty1.setOnAction(event -> {
             System.out.println("Round 1");
             try {
-                if (sql.getTeams().size() < 1)
+                if (sql.getTeams("", "").size() < 1)
                     teamNames();
                 else
-                    openScoreBoard(null);
+                    openScoreBoard(null, 1);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -51,6 +54,7 @@ public class Controller implements Initializable {
 
         btn_kasoty2.setOnAction(event -> {
             System.out.println("Round 2");
+            openScoreBoard(null, 2);
         });
 
     }
@@ -90,7 +94,7 @@ public class Controller implements Initializable {
                 return;
             }
 
-            openScoreBoard(btn_save);
+            openScoreBoard(btn_save, 1);
         });
 
         vBox.getChildren().add(btn_save);
@@ -110,7 +114,7 @@ public class Controller implements Initializable {
 
     }
 
-    private void openScoreBoard(JFXButton btn) {
+    private void openScoreBoard(JFXButton btn, int round) {
         if (btn != null) {
             Stage stage2 = (Stage) btn.getScene().getWindow();
             stage2.close();
@@ -118,6 +122,8 @@ public class Controller implements Initializable {
 
         Stage stage3 = (Stage) btn_kasoty1.getScene().getWindow();
         stage3.close();
+
+        fileHelper.writeRoundNo(round);
 
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource
                 ("scoreboard/scoreboard.fxml"));

@@ -47,3 +47,4 @@ GeneralKnowledge^Copper deposits of Pakistan are found mostly in?^Chagai distric
 GeneralKnowledge^Largest Producer Of Solar energy?^Germany.^Western European Country.^With a landscape of forests, rivers , mountain ranges and north sea.^Its Capital: BERLIN.;
 GeneralKnowledge^The Country which opened its first Agency was?^Iran.^It is also known as Persia.^Known as Islamic republic.^Currency: Riyal.;
 GeneralKnowledge^Arab league is headquartered in?^Cairo.^Is set on Nile River.^At its heart is Tahrir square and the Vast Egyptian.^Capital of Egypt.;
+GeneralKnowledge^PVC stands for?^Polyvinyl Chloride^Used in construction of pipes.^synthetic polymer.^V stands for vinyl.;

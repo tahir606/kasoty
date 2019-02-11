@@ -1,8 +1,9 @@
 package objects;
 
 public class Question {
-    
-    private String category, question, answer, hintone, hinttwo, hintthree;
+
+    private int code, category;
+    private String question, answer, hintone, hinttwo, hintthree;
     private boolean used;
     
     public Question() {
@@ -20,15 +21,23 @@ public class Question {
                 ", used=" + used +
                 '}';
     }
-    
-    public String getCategory() {
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public int getCategory() {
         return category;
     }
-    
-    public void setCategory(String category) {
+
+    public void setCategory(int category) {
         this.category = category;
     }
-    
+
     public String getQuestion() {
         return question;
     }

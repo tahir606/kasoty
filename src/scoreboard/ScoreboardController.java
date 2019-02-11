@@ -30,19 +30,26 @@ public class ScoreboardController implements Initializable {
 
     private List<Team> teams;
 
+    private int roundNo;
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
         fileHelper = new FileHelper();
         sqlCon = new MySqlCon();
 
+        roundNo = fileHelper.readRoundNo();
+
         try {
-            teams = sqlCon.getTeams();
+            if (roundNo == 1)
+                teams = sqlCon.getTeams("", "");
+            else
+                teams = sqlCon.getTeams(" order by TSCORE", " LIMIT 2 ");
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
-        for (Team team: teams) {
+        for (Team team : teams) {
             HBox hBox = new HBox();
             JFXButton teamBtn = new JFXButton(team.getNo() + " - " + team.getName());
             teamBtn.setOnAction(event -> {
@@ -51,7 +58,7 @@ public class ScoreboardController implements Initializable {
 
                 Stage stage = (Stage) teamBtn.getScene().getWindow();
                 stage.close();
-    
+
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource
                         ("category/category.fxml"));
                 Parent root1 = null;
@@ -65,8 +72,8 @@ public class ScoreboardController implements Initializable {
                 stageN.setScene(new Scene(root1, 300, 300));
                 stageN.show();
             });
-            
-            hBox.getChildren().addAll(teamBtn, new Label("Score: 0"));
+
+            hBox.getChildren().addAll(teamBtn, new Label("Score: " + team.getScore()));
             vbox_teams.getChildren().add(hBox);
         }
     }

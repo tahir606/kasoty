@@ -2,6 +2,7 @@ chemistry^Mass spectrometer is used to determine mass number of isotopes and^Rel
 chemistry^Estimation of amounts of different components in a sample is^Quantitative analysis^Branch of chemistry that deals with the determination of the amount^Percentage of one or more constituents of a sample^Estimation refers to the process by which one makes inferences about a population based on information;
 chemistry^Animal Charcoal absorbs the coloured^Impurities^Chemical Substance inside a confined amount of liquid^Differ from the chemical composition of the material or compound^They are Either naturally occurring or added during synthesis of a chemical or commercial product;
 chemistry^Hydrogen Bonding is maximum in^HF^It is colorless gas^It is widely used in the petrochemical industry as a component of superacids^It is used in the production of aluminum and chlorofluorocarbons, and in the glass etching and chemical industries;
+chemistry^Which type of hybridization is present in Ammonia?^Sp3^Nitrogen is hybridized.^Nitrogen is a member of 5th group^Nitrogen has 1 lone pair.;
 chemistry^Order of a reaction depends upon^Power of concentration of reactions^It increases the rate of reaction^Its increase may have little noticeable effect of the rate^Its increase the rate of reaction;
 chemistry^Why does lithium carbonate decompose on heating^It is not stable^It is related to its properties^Molecular characteristics of a chemical or compound^Realted to Stability;
 chemistry^Why is heat of the earth maintained^Due to carbon dioxide and water vapours^It is colourless^A low concentration the gas is odorless^At sufficiently-high concentrations, it has a sharp, acidic odor at standard temperature;
@@ -24,6 +25,29 @@ chemistry^The Friedal craft reaction will be slowest for^Nitro bezene^It is wate
 chemistry^Magnesium metal does not burn in the vessel containing^Ne^Atomic Number 10^It is Colorless odorless inert mono atomic gas^It is a noble gas ( Group 8 );
 chemistry^In diaphragm cell , hydrogen is discharged by the reduced of^Water^Its attraction to polar molecules^High-specific heat^High polarity;
 chemistry^Which Of the following way is used for classification of chromatography^Phase^Absorption chromatography^Partion Chromatography^It is a region of space ( a themodynamic system );
+chemistry^What substance expands on cooling?^Water.^When it freezes it takes up more volume.^It is an inorganic compound.^It has a pH of 7.;
+chemistry^What element in its liquid state defies gravity?^Helium.^It is called the “lambda point” for that element.^Second most common element after hydrogen.^At room temperature it is a tasteless and odorless gas.;
+chemistry^What is the rarest natural-occurring element in Earth's crust?^Astatine.^It is named after the Greek word for unstable (astatos).^Semi-metal that results from the decay of uranium and thorium.^Its atomic number is 85.;
+chemistry^Your car's airbags are packed with which salt?^Sodium Azide.^It is a rapidly acting, potentially deadly chemical that exists as an odorless white solid.^When it is mixed with water or an acid, it changes rapidly to a toxic gas with a pungent (sharp) odor.^It is also a preservative preventing the microbial growth in the buffer.;
+chemistry^Which element from the periodic table can easily melt with the warmth of your hand?^Gallium.^It is extracted from bauxite and sometimes sphalerite.^Low melting alloys are used in some medical thermometers as non-toxic substitutes for mercury.^Its atomic number is 31.;
+chemistry^Lightning strikes produce what?^Ozone.^It is the reason why lightning produces a "clean" smell.^It is generally contained mostly within in the stratosphere's layer.^It acts as a filter for the shorter wavelength.;
+chemistry^Which acid is so corrosive that it will dissolve glass?^Hydrofluoric acid.^It is considered a weak acid.^It is an industrial raw material used in the manufacture of products including refrigerants, gasoline and aluminum.^It is a precursor to almost all fluorine compounds.;
+chemistry^Hot peppers get their heat from a molecule called?^Capsaicin.^The molecule acts as an irritant to mammals.^It may reduce your appetite and help lower blood pressure.^It is a phenylpropanoid compound.;
+chemistry^Mars is red due to which compound?^Iron oxide.^Exposure to the fumes can cause metal fume fever.^It occurs in nature as the mineral hematite.^One of the forms of this compound is rust.;
+chemistry^Name the best conductor of heat and electricity?^Graphene.^Is the thinnest compound known to exist.^Also known as miracle metal.^Is a single layer of pure carbon atoms bonded together with sp2 bonds.;
+chemistry^What is the most common isotope of hydrogen?^Protium.^It is not radioactive while other two of its isotopes are.^It makes up 99.98% of hydrogen of the universe.^It has no neutron.;
+chemistry^Your blood contains which metal in abundance?^Iron.^It is metal in first transition series.^Most common element on Earth.^It has atomic number 26.;
+chemistry^Which element except mercury exists in liquid form at room temperature?^Bromine.^It is the third lightest halogen.^It has atomic number 35.^It evaporates to form a reddish brown gas.;
+chemistry^_____________ maintains the pH of blood?^Buffer of carbonic acid and bi-carbonates.^An aq. solution consisting of carbonates.^It contains a weak acid, and its conjugate base.^It implies Le Chatelier’s principle.;
+chemistry^______________  helps create super conducting magnets in furnace lining?^Zirconium.^It is transition metal.^It is isolated from a mineral.^You can find it in poison ivy lotion in a pharmacy.;
+chemistry^Which element is used as a bonding agent in alloying steel, and titanium?^Vanadium.^It is one of the D-block elements.^It’s atomic number is 23.^It’s oxide acts as a catalyst in the production of sulfuric acid.;
+chemistry^Which organic compound is a fungistatic compound that is widely used as a food preservative?^Benzoic acid.^It is a constituent of Whitfield’s ointment, which is used for treatment of fungal skin diseases.^It’s sodium salt in acidic foods such as salad dressings, and carbonating drinks.^It is derived from an organic compound composing of equal number of carbon and hydrogen atoms.;
+chemistry^Which synthetic fiber is famous for being bulletproof?^Kevlar.^It is five times stronger than steel.^It is highly heat resistant.^It was inspired from the structure of spider webs.;
+chemistry^Which industrial process is an artificial nitrogen fixation process?^Haber process.^Uses iron as catalyst.^Uses two gases as reactants.^It is used to produce a compound which is a major constituent of fertilizers.;
+chemistry^Which zero group element is used in photographic flashes?^Xenon.^It is used in radiation detection instruments.^It is found in 5th period.It is noble gas.^;
+chemistry^Which element makes the longest chains?^Carbon.^It has a property called Catenation.^4th group element.^Basis of organic chemistry.;
+chemistry^Which is the strongest bond in organic molecules?^sp-sp.^S-subshell is closest to nucleus.^More s character, more bond strength.^Sp-sp bond has the least bond length.;
+chemistry^The process through which petroleum products are separated is?^Distillation.^The plant has huge columns.^Done on the basis of difference of boiling points.^D*******tion;
 
  
 

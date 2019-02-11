@@ -8,8 +8,9 @@ import java.io.*;
 public class FileHelper {
     
     private static final String FADD = "settings/",
-            TEAMDETS = "currentTeamDets",
-            CATEGORY = "categoryChosen";
+            TEAMDETS = "currentTeamDets.txt",
+            CATEGORY = "categoryChosen.txt",
+            ROUNDNO = "roundNo.txt";
     
     public FileHelper() {
     }
@@ -84,7 +85,7 @@ public class FileHelper {
         }
     }
     
-    public boolean writeCategorySelected(String category) {
+    public boolean writeCategorySelected(int category) {
         
         PrintWriter writer = null;
         
@@ -92,7 +93,7 @@ public class FileHelper {
             writer = new PrintWriter(
                     new File(FADD + CATEGORY));
             
-            writer.write(category);
+            writer.write(String.valueOf(category));
             
             return true;
             
@@ -149,6 +150,56 @@ public class FileHelper {
             return false;
         } finally {
             writer.close();
+        }
+    }
+
+    public boolean writeRoundNo(int no) {
+
+        PrintWriter writer = null;
+
+        try {
+            writer = new PrintWriter(
+                    new File(FADD + ROUNDNO));
+
+
+            System.out.println("Writing round: " + no);
+            writer.write(String.valueOf(no));
+
+            return true;
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return false;
+        } finally {
+            writer.close();
+        }
+    }
+
+    public int readRoundNo() {
+        String text = "";
+        InputStreamReader isReader = null;
+        try {
+            isReader =
+                    new InputStreamReader(new FileInputStream(new File(FADD + ROUNDNO)));
+            BufferedReader br = new BufferedReader(isReader);
+
+            text = br.readLine();
+
+            if (text == null) {
+                return 1;
+            }
+
+            return Integer.parseInt(text);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return 1;
+        } finally {
+            try {
+                isReader.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
         }
     }
     
