@@ -44,7 +44,7 @@ public class ScoreboardController implements Initializable {
             if (roundNo == 1)
                 teams = sqlCon.getTeams("", "");
             else
-                teams = sqlCon.getTeams(" order by TSCORE", " LIMIT 2 ");
+                teams = sqlCon.getTeams(" order by TSCORE DESC", " LIMIT 2 ");
         } catch (SQLException e) {
             e.printStackTrace();
         }

@@ -6,22 +6,25 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="333.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="category.CategoryController">
+<AnchorPane prefHeight="400.0" prefWidth="333.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="category.CategoryController">
     <children>
         <VBox layoutX="250.0" layoutY="100.0" prefHeight="200.0" prefWidth="131.0" AnchorPane.leftAnchor="100.0">
             <children>
-                <JFXButton fx:id="btn_physics" prefHeight="37.0" prefWidth="150.0" text="Physics" />
-                <JFXButton fx:id="btn_chemistry" prefHeight="37.0" prefWidth="150.0" text="Chemistry" />
-                <JFXButton fx:id="btn_maths" prefHeight="37.0" prefWidth="150.0" text="Maths" />
-                <JFXButton fx:id="btn_bio" prefHeight="37.0" prefWidth="150.0" text="Biology" />
-                <JFXButton fx:id="btn_genKnowledge" prefHeight="37.0" prefWidth="150.0" text="General Knowledge" />
-                <JFXButton fx:id="btn_inventor" visible="false" prefHeight="37.0" prefWidth="150.0" text="Inventors" />
-                <JFXButton fx:id="btn_inventions" visible="true" prefHeight="37.0" prefWidth="150.0" text="Inventions" />
+                <JFXButton fx:id="btn_physics" prefHeight="37.0" prefWidth="150.0" text="Physics" visible="false"/>
+                <JFXButton fx:id="btn_chemistry" prefHeight="37.0" prefWidth="150.0" visible="false" text="Chemistry"/>
+                <JFXButton fx:id="btn_maths" prefHeight="37.0" prefWidth="150.0" visible="false" text="Maths"/>
+                <JFXButton fx:id="btn_bio" prefHeight="37.0" visible="false" prefWidth="150.0" text="Biology"/>
+                <JFXButton fx:id="btn_genKnowledge" visible="false" prefHeight="37.0" prefWidth="150.0"
+                           text="General Knowledge"/>
+                <JFXButton fx:id="btn_inventor" visible="false" prefHeight="37.0" prefWidth="150.0" text="Inventors"/>
+                <JFXButton fx:id="btn_inventions" visible="false" prefHeight="37.0" prefWidth="150.0"
+                           text="Inventions"/>
             </children>
         </VBox>
         <Label fx:id="label_tName" layoutX="106.0" layoutY="42.0" text="Team Name" AnchorPane.leftAnchor="106.0">
             <font>
-                <Font name="Calibri Bold" size="24.0" />
+                <Font name="Calibri Bold" size="24.0"/>
             </font>
         </Label>
     </children>

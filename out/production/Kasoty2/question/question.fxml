@@ -17,7 +17,7 @@
             <Label fx:id="label_question" prefHeight="34.0" prefWidth="484.0" text="Question" />
             <JFXButton fx:id="btn_hint1" prefHeight="40.0" prefWidth="484.0" text="Hint One" />
             <JFXButton fx:id="btn_hint2" prefHeight="40.0" prefWidth="558.0" text="Hint Two" />
-            <JFXButton fx:id="btn_hint3" prefHeight="40.0" prefWidth="586.0" text="Hint Three" />
+            <JFXButton fx:id="btn_hint3" visible="false" prefHeight="40.0" prefWidth="586.0" text="Hint Three" />
             <JFXButton fx:id="btn_reveal_answer" prefHeight="40.0" prefWidth="523.0" text="Reveal Answer" />
             <HBox prefHeight="60.0" prefWidth="484.0" />
             <JFXButton fx:id="btn_correctAnswer" prefHeight="40.0" prefWidth="515.0" text="Correct Answer! :)" />

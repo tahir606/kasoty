@@ -22,12 +22,14 @@ public class CategoryController implements Initializable {
     @FXML
     private Label label_tName;
     @FXML
-    private JFXButton btn_physics, btn_chemistry, btn_maths, btn_bio, btn_genKnowledge;
+    private JFXButton btn_physics, btn_chemistry, btn_maths, btn_bio, btn_genKnowledge, btn_inventor, btn_inventions;
 
     private FileHelper fileHelper;
     private MySqlCon sqlCon;
 
     private Team team;
+    
+    private int roundno;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -35,11 +37,24 @@ public class CategoryController implements Initializable {
         fileHelper = new FileHelper();
         sqlCon = new MySqlCon();
 
+        roundno = fileHelper.readRoundNo();
+        
         team = fileHelper.readCurrentTeamDets();
         team = sqlCon.getCategoriesUsed(team);
 
         label_tName.setText(String.valueOf(team));
 
+        if (roundno == 1) {
+            btn_physics.setVisible(true);
+            btn_chemistry.setVisible(true);
+            btn_bio.setVisible(true);
+            btn_maths.setVisible(true);
+            btn_genKnowledge.setVisible(true);
+        } else {
+            btn_inventor.setVisible(true);
+            btn_inventions.setVisible(true);
+        }
+        
         if (team.isPhy())
             btn_physics.setDisable(true);
         if (team.isChem())
@@ -50,12 +65,18 @@ public class CategoryController implements Initializable {
             btn_maths.setDisable(true);
         if (team.isGenknow())
             btn_genKnowledge.setDisable(true);
+        if (team.isInventor())
+            btn_inventor.setDisable(true);
+        if (team.isInvention())
+            btn_inventions.setDisable(true);
 
         btn_physics.setOnAction(event -> selectCategory("Physics"));
         btn_chemistry.setOnAction(event -> selectCategory("Chemistry"));
         btn_maths.setOnAction(event -> selectCategory("Maths"));
         btn_bio.setOnAction(event -> selectCategory("Biology"));
         btn_genKnowledge.setOnAction(event -> selectCategory("General Knowledge"));
+        btn_inventor.setOnAction(event -> selectCategory("Inventor"));
+        btn_inventions.setOnAction(event -> selectCategory("Inventions"));
 
     }
 

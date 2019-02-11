@@ -136,6 +136,8 @@ public class MySqlCon {
     }
 
     public Question getRandomUsedQuestion(String category) throws SQLException {
+        
+        System.out.println("Trying to get already used questions");
 
         String query = "SELECT QNO, QUESTION, ANSWER, HINTONE, HINTTWO, HINTTHREE FROM questions " +
                 "WHERE CATEGORY LIKE '%" + category + "%' " +
@@ -170,6 +172,7 @@ public class MySqlCon {
 
 
     private void markQuestionUsed(Question question) {
+        
         String query = "UPDATE QUESTIONS SET USED = 1 WHERE QNO = ?";
 
         try {

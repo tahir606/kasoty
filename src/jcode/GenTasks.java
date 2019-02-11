@@ -16,9 +16,9 @@ public class GenTasks {
             return 4;
         } else if (GenTasks.containsIgnoreCase(category,"General")) {
             return 5;
-        } else if (GenTasks.containsIgnoreCase(category,"Inventors")) {
+        } else if (GenTasks.containsIgnoreCase(category,"Inventor")) {
             return 6;
-        } else if (GenTasks.containsIgnoreCase(category,"inventions")) {
+        } else if (GenTasks.containsIgnoreCase(category,"invention")) {
             return 7;
         }
 
