@@ -1,6 +1,7 @@
 package category;
 
 import com.jfoenix.controls.JFXButton;
+import dashboard.Controller;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -97,7 +98,7 @@ public class CategoryController implements Initializable {
         }
         Stage stageN = new Stage();
         stageN.setTitle("Answer Question");
-        stageN.setScene(new Scene(root1, 600, 400));
+        stageN.setScene(new Scene(root1, Controller.UNIVERSAL_WIDTH, Controller.UNIVERSAL_HEIGHT));
         stageN.show();
     }
 

@@ -1,5 +1,7 @@
 package jcode;
 
+import com.jfoenix.controls.JFXButton;
+
 public class GenTasks {
 
     public GenTasks() {
@@ -12,7 +14,7 @@ public class GenTasks {
             return 2;
         } else if (GenTasks.containsIgnoreCase(category,"biology")) {
             return 3;
-        } else if (GenTasks.containsIgnoreCase(category,"maths")) {
+        } else if (GenTasks.containsIgnoreCase(category,"M")) {
             return 4;
         } else if (GenTasks.containsIgnoreCase(category,"General")) {
             return 5;
@@ -58,4 +60,5 @@ public class GenTasks {
         }
         return false;
     }
+
 }

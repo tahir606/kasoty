@@ -1,6 +1,7 @@
 package question;
 
 import com.jfoenix.controls.JFXButton;
+import dashboard.Controller;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -8,6 +9,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 import jcode.FileHelper;
 import jcode.MySqlCon;
@@ -22,9 +24,11 @@ import java.util.ResourceBundle;
 public class QuestionController implements Initializable {
     
     @FXML
-    private Label label_category, label_timer, label_question;
+    private Label label_category, label_timer;
     @FXML
-    private JFXButton btn_hint1, btn_hint2, btn_hint3, btn_reveal_answer, btn_correctAnswer, btn_incorrectAnswer;
+    private TextArea  label_question;
+    @FXML
+    private JFXButton btn_hint1, btn_hint2, btn_hint3, btn_reveal_answer, btn_correctAnswer, btn_incorrectAnswer, btn_back;
     
     private FileHelper fileHelper;
     private MySqlCon sql;
@@ -73,6 +77,24 @@ public class QuestionController implements Initializable {
         label_category.setText(category);
         
         startTimer();
+
+        btn_back.setOnAction(event -> {
+            Stage stage = (Stage) btn_back.getScene().getWindow();
+            stage.close();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource
+                    ("scoreboard/scoreboard.fxml"));
+            Parent root1 = null;
+            try {
+                root1 = fxmlLoader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            Stage stageN = new Stage();
+            stageN.setTitle("Scoreboard");
+            stageN.setScene(new Scene(root1, Controller.UNIVERSAL_WIDTH, Controller.UNIVERSAL_HEIGHT));
+            stageN.show();
+        });
         
     }
     
@@ -90,7 +112,7 @@ public class QuestionController implements Initializable {
         }
         Stage stageN = new Stage();
         stageN.setTitle("Scoreboard");
-        stageN.setScene(new Scene(root1, 600, 400));
+        stageN.setScene(new Scene(root1, Controller.UNIVERSAL_WIDTH, Controller.UNIVERSAL_HEIGHT));
         stageN.show();
     }
     

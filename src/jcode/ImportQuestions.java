@@ -11,16 +11,22 @@ public class ImportQuestions {
     private final static String CHEM = "data/chemistry.txt",
             BIO = "data/bio.txt",
             PHY = "data/physics.txt",
+            MATH = "data/maths.txt",
+            MATH2 = "data/maths2.txt",
             GEN = "data/gen.txt",
-            INVENTORS = "data/inventors.txt";
+            INVENTORS = "data/inventors.txt",
+            INVENTIONS = "data/inventions.txt";
 
     public ImportQuestions() {
         sql = new MySqlCon();
-        importQuestions(CHEM);
-        importQuestions(BIO);
-        importQuestions(PHY);
-        importQuestions(GEN);
-        importQuestions(INVENTORS);
+//        importQuestions(CHEM);
+//        importQuestions(BIO);
+//        importQuestions(PHY);
+//        importQuestions(GEN);
+        importQuestions(MATH);
+        importQuestions(MATH2);
+//        importQuestions(MATH2);
+//        importQuestions(INVENTORS);
     }
 
     private void importQuestions(String sub) {

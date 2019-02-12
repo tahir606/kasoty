@@ -13,6 +13,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import jcode.FileHelper;
 import jcode.MySqlCon;
@@ -33,6 +34,8 @@ public class Controller implements Initializable {
 
     private MySqlCon sql;
     private FileHelper fileHelper;
+
+    public static final int UNIVERSAL_WIDTH = 700, UNIVERSAL_HEIGHT = 500;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -59,7 +62,7 @@ public class Controller implements Initializable {
 
     }
 
-    int noOfTeams = 5;
+    int noOfTeams = 50;
 
     private void teamNames() {
         AnchorPane root = new AnchorPane();
@@ -69,10 +72,15 @@ public class Controller implements Initializable {
             TextField team = new TextField();
             team.setPromptText("Team " + i);
             team.setId("t_" + i);
+            team.setMinSize(200, 40);
             vBox.getChildren().add(team);
         }
 
         JFXButton btn_save = new JFXButton("Save Teams");
+        btn_save.setStyle("-fx-background-color: #ffb2b2;");
+        btn_save.setMinWidth(200);
+        btn_save.setMinHeight(30);
+        btn_save.setFont(Font.font("16"));
         btn_save.setOnAction(event -> {
             List<Team> teams = new ArrayList<>();
             int counter = 0;
@@ -105,7 +113,7 @@ public class Controller implements Initializable {
         sp.setContent(root);
         sp.setPannable(true);
 
-        Scene scene = new Scene(sp, 200, 300);
+        Scene scene = new Scene(sp, UNIVERSAL_WIDTH, UNIVERSAL_HEIGHT);
         Stage primaryStage = new Stage();
         primaryStage.setTitle("Team Names");
         primaryStage.setScene(scene);
@@ -135,7 +143,7 @@ public class Controller implements Initializable {
         }
         Stage stage = new Stage();
         stage.setTitle("Scoreboard");
-        stage.setScene(new Scene(root1, 300, 300));
+        stage.setScene(new Scene(root1, UNIVERSAL_WIDTH, UNIVERSAL_HEIGHT));
         stage.show();
     }
 
