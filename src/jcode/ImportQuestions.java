@@ -12,7 +12,6 @@ public class ImportQuestions {
             BIO = "data/bio.txt",
             PHY = "data/physics.txt",
             MATH = "data/maths.txt",
-            MATH2 = "data/maths2.txt",
             GEN = "data/gen.txt",
             INVENTORS = "data/inventors.txt",
             INVENTIONS = "data/inventions.txt";
@@ -23,10 +22,9 @@ public class ImportQuestions {
 //        importQuestions(BIO);
 //        importQuestions(PHY);
 //        importQuestions(GEN);
-        importQuestions(MATH);
-        importQuestions(MATH2);
-//        importQuestions(MATH2);
+//        importQuestions(MATH);
 //        importQuestions(INVENTORS);
+        importQuestions(INVENTIONS);
     }
 
     private void importQuestions(String sub) {

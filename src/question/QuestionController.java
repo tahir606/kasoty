@@ -157,7 +157,7 @@ public class QuestionController implements Initializable {
             time = 30;
         
         new Thread(() -> {
-            for (int i = time; i >= 1; i--) {
+            for (int i = time; i >= 0; i--) {
                 int finalI = i;
                 Platform.runLater(() -> label_timer.setText(String.valueOf(finalI)));
                 try {
@@ -166,7 +166,7 @@ public class QuestionController implements Initializable {
                     e.printStackTrace();
                 }
             }
-            btn_correctAnswer.setDisable(true);
+//            btn_correctAnswer.setDisable(true);
         }).start();
     }
 }
